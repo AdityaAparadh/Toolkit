@@ -20,7 +20,7 @@
 color 0F
 mode con: cols=80 lines=50
 
- :MENU_F_MAIN
+ :MENU_MAIN
  cls
  echo.
  echo                     #########################################
@@ -70,7 +70,7 @@ echo.
 echo.
 echo.
 echo.
-echo You Pressed the %ERRORLEVEL%th option.
+goto :OPTION_%ERRORLEVEL%
 pause  rem Above is just a placeholder
 
 :: The Options are like domains which will hold the array of actual tools.
@@ -79,6 +79,145 @@ pause  rem Above is just a placeholder
 :: More will contain other options like customization, links, extra information.
 
 
+:OPTION_1   
 cls
-intro.bat      rem This is just a placeholder.
-exit
+echo.
+echo This is option number %ERRORLEVEL%
+echo.
+echo.
+pause
+goto :MENU_MAIN
+
+:: This is just a placeholder. For next options.
+
+:OPTION_2
+cls
+echo.
+echo This is option number %ERRORLEVEL%
+echo.
+echo.
+pause
+goto :MENU_MAIN
+
+:: This is just a placeholder. For next options.
+
+
+:OPTION_3
+cls
+echo.
+echo This is option number %ERRORLEVEL%
+echo.
+echo.
+pause
+goto :MENU_MAIN
+
+:: This is just a placeholder. For next options.
+
+
+:OPTION_4
+cls
+echo.
+echo This is option number %ERRORLEVEL%
+echo.
+echo.
+pause
+goto :MENU_MAIN
+
+:: This is just a placeholder. For next options.
+
+
+:OPTION_5
+cls
+echo.
+echo This is option number %ERRORLEVEL%
+echo.
+echo.
+pause
+goto :MENU_MAIN
+
+:: This is just a placeholder. For next options.
+
+:OPTION_6
+
+cls
+echo.
+echo This is option number %ERRORLEVEL%
+echo.
+echo.
+pause
+goto :MENU_MAIN
+
+:: This is just a placeholder. For next options.
+
+:OPTION_7
+
+cls
+echo.
+echo This is option number %ERRORLEVEL%
+echo.
+echo.
+pause
+goto :MENU_MAIN
+
+:: This is just a placeholder. For next options.
+
+:OPTION_8
+
+cls
+echo.
+echo This is option number %ERRORLEVEL%
+echo.
+echo.
+pause
+goto :MENU_MAIN
+
+:: This is just a placeholder. For next options.
+
+:OPTION_9
+
+cls
+echo.
+echo This is option number %ERRORLEVEL%
+echo.
+echo.
+pause
+goto :MENU_MAIN
+
+:: This is just a placeholder. For next options.
+
+:OPTION_10
+
+cls
+echo.
+echo This is option number %ERRORLEVEL%
+echo.
+echo.
+pause
+goto :MENU_MAIN
+
+:: This is just a placeholder. For next options.
+
+:OPTION_11
+
+cls
+echo.
+echo This is option number %ERRORLEVEL%
+echo.
+echo.
+pause
+goto :MENU_MAIN
+
+:: This is just a placeholder. For next options.
+
+:OPTION_12
+
+cls
+echo.
+echo This is option number %ERRORLEVEL%
+echo.
+echo.
+pause
+goto :MENU_MAIN
+
+:: This is just a placeholder. For next options.
+
